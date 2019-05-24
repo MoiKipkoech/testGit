@@ -1,0 +1,17 @@
+#ELSEIF
+def hi(name):
+    if name=="Giddy":
+        print("Hey Giddy, how are you today")
+    elif name == "Meagan":
+        print("Hey beautiful girl, you look awesome today")
+    else:
+        print("Mercy is that you, your hair is amazing.")
+        
+hi("Meagan")
+#FORLOOP___________________
+def djangoboys(name):
+    print("Hi " + name + '!')
+boys = ['Giddy', 'Haron', 'Mosi', 'Davy', 'Caleb','You']
+for name in boys:
+    djangoboys(name)
+    print('Next,')
